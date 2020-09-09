@@ -79,7 +79,7 @@ previousBtn.addEventListener('click', () => {
 
 
 //google form here: 
-const scriptURL = '<https://script.google.com/macros/s/AKfycbxOk41poG_3p7dgpISLsxtmJui4EHQzK7NC4N4BJnrysQx6qYw/exec>'
+const scriptURL = <https://script.google.com/macros/s/AKfycbxOk41poG_3p7dgpISLsxtmJui4EHQzK7NC4N4BJnrysQx6qYw/exec>
 const form = document.querySelector('form')
 
 form.addEventListener('submit', (e) => {
